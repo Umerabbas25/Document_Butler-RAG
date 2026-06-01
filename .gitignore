@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+.next/
+package-lock.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project Specific
+backend-20260601T124647Z-3-001/backend/uploads/
+backend-20260601T124647Z-3-001/backend/uploads_tmp/
+backend-20260601T124647Z-3-001/backend/markdown_files/
