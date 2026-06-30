@@ -87,7 +87,7 @@ export function QueryPanel({ answer, streaming, streamPhase, citations, onQuery,
                     const colorCls = EXT_COLOR[ext] ?? 'text-text-muted bg-bg-elevated';
                     return (
                       <button
-                        key={`${ref.doc_id}-${ref.chunk_index}`}
+                        key={`${ref.doc_id}-${ref.chunk_index}-${i}`}
                         onClick={() => onOpenSource(ref.doc_id, ref)}
                         className="flex-none flex items-center gap-2 bg-bg-surface border border-border hover:border-border-accent hover:bg-accent-dim rounded-xl px-3 py-2.5 transition-all group"
                         style={{ animationDelay: `${i * 40}ms` }}

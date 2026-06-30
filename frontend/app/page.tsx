@@ -155,9 +155,7 @@ export default function Home() {
             </svg>
           </div>
           <span className="text-sm font-semibold text-text-primary tracking-tight">Document Butler</span>
-          <span className="text-[10px] font-medium text-accent bg-accent-dim px-2 py-0.5 rounded-full border border-border-accent">
-            Lecture 18
-          </span>
+
         </div>
 
         <div className="ml-auto flex items-center gap-3">

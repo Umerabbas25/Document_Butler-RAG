@@ -10,7 +10,6 @@ env/
 node_modules/
 dist/
 .next/
-package-lock.json
 
 # IDE / OS
 .vscode/
@@ -19,6 +18,6 @@ package-lock.json
 Thumbs.db
 
 # Project Specific
-backend-20260601T124647Z-3-001/backend/uploads/
-backend-20260601T124647Z-3-001/backend/uploads_tmp/
-backend-20260601T124647Z-3-001/backend/markdown_files/
+backend/uploads/
+backend/uploads_tmp/
+backend/markdown_files/
